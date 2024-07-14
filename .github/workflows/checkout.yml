@@ -23,7 +23,7 @@ jobs:
     container:
       image: codetyio/codety:0.001
     steps:
-      - run: codetyBBB
+      - run: ls
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #  checkout:
