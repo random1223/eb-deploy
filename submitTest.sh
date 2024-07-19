@@ -6,6 +6,6 @@ do
 	git add a.txt
 	git commit -m 'test pipeline $now '
 	git push
-	sleep 20
+	sleep 25
 
 done
