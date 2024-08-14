@@ -8,7 +8,7 @@ jobs:
   Pipeline:
     runs-on: ubuntu-latest
     container:
-      image: codetyio/codety:0.02
+      image: codetyio/codety
     steps:
       - run: ls -ls
         env:
