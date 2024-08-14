@@ -1,14 +1,14 @@
 name: Codety
 on:
   push:
-    branches: [ "**" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "**" ]
 jobs:
   Pipeline:
     runs-on: ubuntu-latest
     container:
-      image: codetyio/codety:0.02
+      image: codetyio/codety
     steps:
       - run: ls -ls
         env:
